@@ -1,0 +1,6 @@
+- id: hadolint
+  name: Hadolint runner
+  description: Run Hadolint to link Dockerfile
+  entry: hadolint
+  language: script
+  files: (\.dockerfile|Dockerfile)$
