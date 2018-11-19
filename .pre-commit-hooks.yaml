@@ -1,6 +1,6 @@
 - id: hadolint
   name: Hadolint runner
   description: Run Hadolint to link Dockerfile
-  entry: hadolint
-  language: system
+  entry: hadolint_docker_run.py
+  language: python
   files: (\.dockerfile|Dockerfile)$
